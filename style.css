@@ -1,0 +1,523 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+/*Homepage styling*/
+
+
+.landingpage
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #432967;
+    text-align: center;
+    padding-top: 1px;
+    z-index: 3;
+}
+
+#portfolivo-bubbles
+{
+
+    background-image: url("img/Portfolivo-bubbles.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+/*Navbar*/
+
+.navbar
+{
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    right: 0;
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar li a
+{
+    display: block;
+    color: #FDCD83;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.active
+{
+    text-decoration: underline solid #FDCD83;
+}
+
+.navbar li a:hover
+{
+    opacity: 0.5;
+}
+
+/*Header*/
+
+.Portfolivo
+{
+    margin-top: 30vh;
+    color: #FDCD83;
+    font-size: 12vw;
+}
+
+.landingpage hr
+{
+    background-color: #FDCD83;
+    height: 10px;
+    width: 54vw;
+    margin-left: 23vw;
+}
+
+
+
+/*Scrollbutton*/
+
+.scrolldownbutton
+{
+    position: absolute;
+    bottom: 10px;
+    left: 48.35%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #FDCD83;
+    letter-spacing: .3em;
+    text-decoration: none;
+    transition: opacity .3s;
+    padding-top: 60px;
+}
+
+.scrolldownbutton:hover
+{
+    opacity: .5;
+}
+
+.scrolldownbutton span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 3px solid #FDCD83;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.scrolldownbutton span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #FDCD83;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2.5s infinite;
+    animation: animatie 2.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes animatie {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes animatie {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+/*Learning Outcomes*/
+
+.wrapper
+{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin: 60px auto;
+}
+
+.parent, .child
+{
+    position: absolute;
+    transition: 0.8s;
+    width: 100%;
+}
+
+.parent
+{
+    height: 100%;
+}
+
+.child
+{
+    height: 125px;
+    bottom: 0px;
+}
+
+
+.learning-outcomes
+{
+    width: 100%;
+    padding: 3vh 10vw;
+    text-align: center;
+    position: relative;
+}
+
+.learning-outcomes h1
+{
+    margin-bottom: 10px;
+    color: #432962;
+    font-size: 4vw;
+    text-align: center;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+}
+
+.learning-outcomes-p
+{
+    margin-bottom: 150px;
+    color: #432962;
+    font-size: 1.4vw;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/*Buttons*/
+
+.buttonrow
+{
+    padding-top: 3vw;
+    float: left;
+    width: 18vw;
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.buttonrow button
+{
+    border: none;
+    font-size: 1.9vw;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 9.5vw;
+    height: 150px;
+    padding: 20px 20px 45px 20px;
+    box-shadow: 5px 10px #782d65;
+    cursor: pointer;
+    color: #FDCD83;
+    background: #432962;
+}
+.IM-button
+{
+    -webkit-clip-path: polygon(94% 27%, 100% 66%, 4% 63%, 0 32%, 34% 16%);
+    clip-path: polygon(94% 27%, 100% 66%, 4% 63%, 0 32%, 34% 16%);
+}
+
+.development-button
+{
+    -webkit-clip-path: polygon(99% 20%, 100% 59%, 8% 67%, 0 28%, 60% 17%);
+    clip-path: polygon(99% 20%, 100% 59%, 8% 67%, 0 28%, 60% 17%);
+}
+
+.design-button
+{
+    -webkit-clip-path: polygon(94% 24%, 100% 62%, 31% 68%, 0 59%, 10% 18%);
+    clip-path: polygon(94% 24%, 100% 62%, 31% 68%, 0 59%, 10% 18%);
+}
+
+.buttonwrap
+{
+    filter: drop-shadow(18px 15px #c3305d);
+}
+
+.row
+{
+    float: left;
+    width: 17vw;
+    margin-right: 2vw;
+}
+
+.row img
+{
+    display: inline-block;
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    margin-bottom: 2vw;
+}
+
+/*Learning outcome banner*/
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 32vh;
+    background-image: url("img/Portfolivo-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.banner h1
+{
+    position: absolute;
+    margin-top: 7vh;
+    color: #FDCD83;
+    font-size: 6vw;
+    text-align: right;
+    width: 100%;
+    padding-right: 5vw;
+}
+
+/*Breadcrumbs*/
+
+.breadcrumbs
+{
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+.breadcrumbs a
+{
+    color: #FDCD83;
+    text-decoration: none;
+    margin: 0 5px;
+    text-shadow: 1px 1px 0px rgba(253, 147, 103, 0.1);
+}
+
+.breadcrumbs span
+{
+    color: #FD9367;
+}
+/*POC's with small information*/
+
+.learning-outcomes-row
+{
+    width: 70%;
+    height: 320px;
+    margin: 8vh 15% 15vh 15%;
+}
+
+.learning-outcomes-row img
+{
+    float: left;
+    width: auto;
+    max-width: 45%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.learning-outcomes-row p
+{
+    float: right;
+    width: 50%;
+    font-size: 1.5vw;
+    height: 100%;
+    padding: 20px;
+    background-color: #FDCD83;
+    color: #432962;
+    box-shadow: 17px 17px 0 #FD9367;
+}
+
+.learning-outcomes-row span
+{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/*Button css*/
+
+
+.blob-btn-div {
+    width: 100%;
+    text-align: center;
+}
+
+.blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 17px 30px 23px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: underline 1.6px;
+    text-underline-position: under;
+    color: #432962;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*border: 2px solid #432962;*/
+}
+.blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+}
+.blob-btn:hover {
+    color: #FFFFFF;
+}
+.blob-btn:hover:after {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+}
+.blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    -webkit-filter: url("#goo");
+    filter: url("#goo");
+}
+.blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #432962;
+    border-radius: 100%;
+    -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    -webkit-transition: -webkit-transform 0.45s;
+    transition: -webkit-transform 0.45s;
+    transition: transform 0.45s;
+    transition: transform 0.45s, -webkit-transform 0.45s;
+}
+@supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+    .blob-btn__blob {
+        -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
+        transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+}
+.blob-btn__blob:nth-child(1) {
+    left: 0%;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+    left: 30%;
+    -webkit-transition-delay: 0.08s;
+    transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+    left: 60%;
+    -webkit-transition-delay: 0.16s;
+    transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+    left: 90%;
+    -webkit-transition-delay: 0.24s;
+    transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+    -webkit-transform: translateZ(0) scale(1.7);
+    transform: translateZ(0) scale(1.7);
+}
+@supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+    .blob-btn:hover .blob-btn__blob {
+        -webkit-transform: translateZ(0) scale(1.4);
+        transform: translateZ(0) scale(1.4);
+    }
+}
+
+
+
+
+
+
+
