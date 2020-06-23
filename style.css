@@ -569,7 +569,10 @@ body
     box-shadow: 17px 17px 0 #C3305D;
 }
 
-
+.mySlides
+{
+    display:none
+}
 
 
 
