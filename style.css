@@ -524,7 +524,7 @@ body
 .text-between-parts
 {
     margin-bottom: 80px;
-    color: #432962;
+    color: #432967;
     font-size: 4vw;
     text-align: center;
     top: 0;
@@ -537,7 +537,7 @@ body
 {
     margin-bottom: 20px;
     margin-top: 120px;
-    color: #432962;
+    color: #432967;
     font-size: 4vw;
     text-align: center;
     top: 0;
@@ -549,7 +549,7 @@ body
 .learning-outcomes-p-2
 {
     margin-bottom: 90px;
-    color: #432962;
+    color: #432967;
     font-size: 1.4vw;
     text-align: center;
     font-style: italic;
@@ -569,10 +569,48 @@ body
     box-shadow: 17px 17px 0 #C3305D;
 }
 
-.mySlides
+.design-single-img
 {
-    display:none
+    margin-left: 15%;
+    width: 70%;
+    background-color: #432967;
 }
+
+.design-img-info
+{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1.5vw;
+    height: auto;
+    padding: 25px;
+    background-color: #FDCD83;
+    color: #432967;
+    box-shadow: 17px 17px 0 #FD9367;
+}
+
+.design-hr
+{
+    border: none;
+    background-color: #432967;
+    width: 70%;
+    height: 5px;
+    margin-left: 15%;
+    margin-top: 145px;
+    margin-bottom: 145px;
+}
+
+.small-slideshow
+{
+    margin-left: 40%;
+    width: 20%;
+}
+
+.slideshow-img
+{
+    display:none;
+}
+
 
 
 

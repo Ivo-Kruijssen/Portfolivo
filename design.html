@@ -31,29 +31,63 @@
             En ik gebruik een lokale WAMP server waar ik mijn website op test.
         </p>
 
+        <h1 class="text-between-parts-2">Kleurenpalet</h1>
+        <p class="learning-outcomes-p-2">
+            Dit is het kleurenpalet dat ik gebruikt heb voor deze site.
+        </p>
+
+        <img class="design-single-img" src="img/Kleurenpalet2.png">
+        <p class="design-img-info">
+            Voor het kleurenpalet ben ik op onderzoek gegaan, klik hier onder op de knop om bij het onderzoek te komen.
+
+        </p>
+
         <h1 class="text-between-parts-2">Visuele ontwerpen</h1>
         <p class="learning-outcomes-p-2">
             Design producten die ik gemaakt heb zoals posters en banners en animaties.
         </p>
 
-        <img class="design-single-img" src="img/Portfolivo-banner.png" style="margin-left: 15%" width="70%">
+        <img  class="design-single-img" src="img/Portfolivo-banner.png">
+        <p class="design-img-info">
+            Op de afbeelding hierboven zie je een banner die ik gemaakt heb voor op de pagina's van de leeruitkomsten.
+            Deze afbeelding heb ik in Photoshop gemaakt en ik heb hiervoor de kleuren van het kleurenpallete gebruikt die ik gebruik voor deze site.
+        </p>
 
-        <p class="design"></p>
+        <hr class="design-hr">
 
-        <div class="" style="max-width:800px">
-            <img class="" src="" style="width:100%">
-            <img class="" src="" style="width:100%">
-            <img class="" src="" style="width:100%">
+        <img class="design-single-img" src="img/Portfolivo-bubbles.png">
+        <p class="design-img-info">
+            Hier zie je de bollen die ik op de landingspage boven de achtergrond laat bewegen op basis van de cursor.
+            Dit heb ik in Photoshop gemaakt omdat ik dacht dat de landingspagina er nog redelijk leeg uitzag.
+            De achtergrond van deze afbeelding is eigenlijk transparant zodat ik deze makkelijker kan laten bewegen met Javascript,
+            maar ik heb er nu een achtergrond onder gemaakt zodat het makkelijker te zien is.
+        </p>
+
+        <hr class="design-hr">
+
+        <img class="design-single-img" src="https://imgur.com/EIO5Xej.gif">
+        <p class="design-img-info">
+            Dit is de animatie van de Ikai website die ik gemaakt heb voor Ikai.
+            De auto komt in het scherm met een animatie zoals je hierboven ziet,
+            en als je dan op een link klikt op het wegwijzer bord rijdt de auto het scherm uit.
+            Deze animatie is heb ik volledig in CSS gemaakt.
+        </p>
+
+        <h1 class="text-between-parts-2">Posters</h1>
+
+
+        <div class="small-slideshow">
+            <img class="slideshow-img" src="img/Eroticism1-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img" src="img/Eroticism1-v2.0.jpg" style="width:100%">
         </div>
 
-        <div class="w3-center">
+        <div class="small-slideshow-buttons">
             <div class="">
-                <button class="" onclick="plusDivs(-1)">❮ Prev</button>
-                <button class="" onclick="plusDivs(1)">Next ❯</button>
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1)">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1)">❯</button>
             </div>
-            <button class="" onclick="currentDiv(1)">1</button>
-            <button class="" onclick="currentDiv(2)">2</button>
-            <button class="" onclick="currentDiv(3)">3</button>
+            <button class="small-slideshow-number" onclick="currentDiv(1)">1</button>
+            <button class="small-slideshow-number" onclick="currentDiv(2)">2</button>
         </div>
 
 
@@ -72,7 +106,7 @@
 
         function showDivs(n) {
             var i;
-            var x = document.getElementsByClassName("mySlides");
+            var x = document.getElementsByClassName("slideshow-img");
             var dots = document.getElementsByClassName("demo");
             if (n > x.length) {slideIndex = 1}
             if (n < 1) {slideIndex = x.length}
