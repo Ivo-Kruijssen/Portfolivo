@@ -38,8 +38,20 @@
 
         <img class="design-single-img" src="img/Kleurenpalet2.png">
         <p class="design-img-info">
-            Voor het kleurenpalet ben ik op onderzoek gegaan, klik hier onder op de knop om bij het onderzoek te komen.
-
+            Voor het kleurenpalet ben ik op onderzoek gegaan, klik hier onder op de knop om bij het onderzoek te komen.<br><br>
+            <a href="research.html">
+                <button class="blob-btn">kleurenpalet onderzoek
+                    <span class="blob-btn__inner">
+                      <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                      </span>
+                    </span>
+                </button>
+            </a>
+            <br>
         </p>
 
         <h1 class="text-between-parts-2">Visuele ontwerpen</h1>
@@ -70,54 +82,214 @@
             Dit is de animatie van de Ikai website die ik gemaakt heb voor Ikai.
             De auto komt in het scherm met een animatie zoals je hierboven ziet,
             en als je dan op een link klikt op het wegwijzer bord rijdt de auto het scherm uit.
-            Deze animatie is heb ik volledig in CSS gemaakt.
+            Deze animatie is heb ik volledig in CSS gemaakt.<br><br>
+            <a href="http://i442177.hera.fhict.nl/ikai/">
+                <button class="blob-btn">ikai website
+                    <span class="blob-btn__inner">
+                      <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                      </span>
+                    </span>
+                </button>
+            </a>
+            <br>
         </p>
 
         <h1 class="text-between-parts-2">Posters</h1>
+        <br><br>
 
+        <!-- Poster 1 -->
 
-        <div class="small-slideshow">
-            <img class="slideshow-img" src="img/Eroticism1-v1.0.jpg" style="width:100%">
-            <img class="slideshow-img" src="img/Eroticism1-v2.0.jpg" style="width:100%">
+        <div class="small-slideshow slideshow-1">
+            <img class="slideshow-img slideshow-img-1" src="img/Eroticism1-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-1" src="img/Eroticism1-v2.0.jpg" style="width:100%">
         </div>
 
         <div class="small-slideshow-buttons">
             <div class="">
-                <button class="small-slideshow-button-left" onclick="plusDivs(-1)">❮</button>
-                <button class="small-slideshow-button-right" onclick="plusDivs(1)">❯</button>
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-1', 'small-slideshow-number-1')">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-1', 'small-slideshow-number-1')">❯</button>
             </div>
-            <button class="small-slideshow-number" onclick="currentDiv(1)">1</button>
-            <button class="small-slideshow-number" onclick="currentDiv(2)">2</button>
+            <button class="small-slideshow-number margin-number small-slideshow-number-1" onclick="currentDiv(1, 'slideshow-img-1', 'small-slideshow-number-1')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-1" onclick="currentDiv(2, 'slideshow-img-1', 'small-slideshow-number-1')">2</button>
+        </div>
+        <p class="design-img-info">
+            Dit is een poster die ik gemaakt heb.
+            Ik kreeg het idee uit het niets in mijn hoofd en heb dit met Photoshop uitgewerkt.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie maar na feedback
+            over dat de tekst er niet echt bij past en misschien beter recht kon staan heb ik dit verwerkt in een tweede versie.
+        </p>
+
+        <hr class="design-hr">
+
+        <!-- Poster 2 -->
+
+        <div class="small-slideshow slideshow-2">
+            <img class="slideshow-img slideshow-img-2" src="img/Eroticism2-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-2" src="img/Eroticism2-v2.0.jpg" style="width:100%">
         </div>
 
+        <div class="small-slideshow-buttons">
+            <div class="">
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-2', 'small-slideshow-number-2') ">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-2', 'small-slideshow-number-2')">❯</button>
+            </div>
+            <button class="small-slideshow-number margin-number small-slideshow-number-2" onclick="currentDiv(1, 'slideshow-img-2', 'small-slideshow-number-2')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-2" onclick="currentDiv(2, 'slideshow-img-2', 'small-slideshow-number-2')">2</button>
+        </div>
+        <p class="design-img-info">
+            Toen ik opzoek was naar afbeeldingen voor de poster hierboven ben ik een foto van een buik tegengekomen
+            waar ik een apart idee kreeg over iemand die een navel als bad gebruikt en dat heb ik meteen daarna uitgewerkt.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie maar na feedback
+            over dat de vrouw misschien toch beter in zwart wit kon zijn zodat het er wat echter uit ziet heb ik dit verwerkt in een tweede versie.
+        </p>
+
+        <hr class="design-hr">
+
+        <!-- Poster 3 -->
+
+        <div class="small-slideshow slideshow-3">
+            <img class="slideshow-img slideshow-img-3" src="img/Fantasy1-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-3" src="img/Fantasy1-v2.0.jpg" style="width:100%">
+        </div>
+
+        <div class="small-slideshow-buttons">
+            <div class="">
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-3', 'small-slideshow-number-3') ">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-3', 'small-slideshow-number-3')">❯</button>
+            </div>
+            <button class="small-slideshow-number margin-number small-slideshow-number-3" onclick="currentDiv(1, 'slideshow-img-3', 'small-slideshow-number-3')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-3" onclick="currentDiv(2, 'slideshow-img-3', 'small-slideshow-number-3')">2</button>
+        </div>
+        <p class="design-img-info">
+            Het idee voor deze poster kreeg ik toen ik nadacht over dieren die vermengt waren met een andere betekenis van hetzelfde woord
+            zoals de Kiwi vogel met de Kiwi fruit. Vandaar dus deze poster met het idee van een Zebra met een Zebrapad.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie maar na feedback over dat er misschien beter nog
+            mensen op kunnen lopen en tekst boven kan staan zodat het wat duidelijk is, heb ik dit verwerkt in een tweede versie.
+        </p>
+
+        <hr class="design-hr">
+
+        <!-- Poster 4 -->
+
+        <div class="small-slideshow slideshow-4">
+            <img class="slideshow-img slideshow-img-4" src="img/Fantasy2-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-4" src="img/Fantasy2-v2.0.jpg" style="width:100%">
+        </div>
+
+        <div class="small-slideshow-buttons">
+            <div class="">
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-4', 'small-slideshow-number-4') ">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-4', 'small-slideshow-number-4')">❯</button>
+            </div>
+            <button class="small-slideshow-number margin-number small-slideshow-number-4" onclick="currentDiv(1, 'slideshow-img-4', 'small-slideshow-number-4')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-4" onclick="currentDiv(2, 'slideshow-img-4', 'small-slideshow-number-4')">2</button>
+        </div>
+        <p class="design-img-info">
+            Toen ik bezig was met de man op de boot in de wolken te krijgen zat ik na te denken over wat er nog meer bij zou kunnen,
+            dus heb ik hiervoor aan een vriend gevraagd wat er in zou kunnen en gaf hij mij een afbeelding.
+            De afbeelding (de man in het roze pak) heb ik toen als een soort god boven in de wolken ge-edit.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie maar na feedback over dat de overgang
+            tussen de man en de wolken wat minder mag heb ik dit verwerkt in de tweede versie.
+        </p>
+
+        <hr class="design-hr">
+
+        <!-- Poster 5 -->
+
+        <div class="small-slideshow slideshow-5">
+            <img class="slideshow-img slideshow-img-5" src="img/Competition1-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-5" src="img/Competition1-v2.0.jpg" style="width:100%">
+        </div>
+
+        <div class="small-slideshow-buttons">
+            <div class="">
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-5', 'small-slideshow-number-5') ">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-5', 'small-slideshow-number-5')">❯</button>
+            </div>
+            <button class="small-slideshow-number margin-number small-slideshow-number-5" onclick="currentDiv(1, 'slideshow-img-5', 'small-slideshow-number-5')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-5" onclick="currentDiv(2, 'slideshow-img-5', 'small-slideshow-number-5')">2</button>
+        </div>
+        <p class="design-img-info">
+            Bij Competition dacht ik meteen aan sport.
+            Uit het niets dacht ik aan een rennende teletubbie die een race houdt met een persoon die sprint op een baan.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie maar na feedback
+            over dat de teletubbie een te lage kwaliteit was en er misschien iets van tekst bij kon staan
+            heb ik dit verwerkt in een tweede versie.
+        </p>
+
+        <hr class="design-hr">
+
+        <!-- Poster 6 -->
+
+        <div class="small-slideshow slideshow-6">
+            <img class="slideshow-img slideshow-img-6" src="img/Competition2-v1.0.jpg" style="width:100%">
+            <img class="slideshow-img slideshow-img-6" src="img/Competition2-v2.0.jpg" style="width:100%">
+        </div>
+
+        <div class="small-slideshow-buttons">
+            <div class="">
+                <button class="small-slideshow-button-left" onclick="plusDivs(-1, 'slideshow-img-6', 'small-slideshow-number-6') ">❮</button>
+                <button class="small-slideshow-button-right" onclick="plusDivs(1, 'slideshow-img-6', 'small-slideshow-number-6')">❯</button>
+            </div>
+            <button class="small-slideshow-number margin-number small-slideshow-number-6" onclick="currentDiv(1, 'slideshow-img-6', 'small-slideshow-number-6')">1</button>
+            <button class="small-slideshow-number small-slideshow-number-6" onclick="currentDiv(2, 'slideshow-img-6', 'small-slideshow-number-6')">2</button>
+        </div>
+        <p class="design-img-info">
+            Bij deze foto heb ik de alles zwart/wit gemaakt behalve het tafeltennis batje,
+            omdat dit een felle kleur uitstraalt die ik vet vond om wel in kleur te houden.<br><br>
+            De eerste foto in deze slideshow was mijn eerste versie,
+            maar ik kreeg de tip om een inspirerende quote in de afbeelding te stoppen en heb hierdoor een tweede versie.
+        </p>
+
+        <br><br><br><br><br>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+            </defs>
+        </svg>
 
     </body>
     <script>
         var slideIndex = 1;
-        showDivs(slideIndex);
+        showDivs(slideIndex, 'slideshow-img-1', 'small-slideshow-number-1');
+        showDivs(slideIndex, 'slideshow-img-2', 'small-slideshow-number-2');
+        showDivs(slideIndex, 'slideshow-img-3', 'small-slideshow-number-3');
+        showDivs(slideIndex, 'slideshow-img-4', 'small-slideshow-number-4');
+        showDivs(slideIndex, 'slideshow-img-5', 'small-slideshow-number-5');
+        showDivs(slideIndex, 'slideshow-img-6', 'small-slideshow-number-6');
 
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
+        function plusDivs(n, q, w) {
+            showDivs(slideIndex += n, q, w);
         }
 
-        function currentDiv(n) {
-            showDivs(slideIndex = n);
+        function currentDiv(n, q, w) {
+            showDivs(slideIndex = n, q, w);
         }
 
-        function showDivs(n) {
+        function showDivs(n, q, w) {
             var i;
-            var x = document.getElementsByClassName("slideshow-img");
-            var dots = document.getElementsByClassName("demo");
+            var x = document.getElementsByClassName(q);
+            var dots = document.getElementsByClassName(w);
             if (n > x.length) {slideIndex = 1}
             if (n < 1) {slideIndex = x.length}
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" w3-red", "");
+                dots[i].className = dots[i].className.replace(" active-slide", "");
             }
             x[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " w3-red";
+            dots[slideIndex-1].className += " active-slide";
         }
 
     </script>
