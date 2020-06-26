@@ -672,11 +672,74 @@ body
 }
 
 /*Research*/
+.lab-cmd, .field-cmd, .steppingstones-cmd, .showroom-cmd, .library-cmd
+{
+    text-align: center;
+    width: 100%;
+    font-size: 2vw;
+    color: #797dbc;
+    margin-bottom: 75px;
+}
 
+.field-cmd
+{
+    color: #52c3c4;
+}
 
+.steppingstones-cmd
+{
+    color: #ef4e8c;
+}
 
+.showroom-cmd
+{
+    color: #ffd11d;
+}
 
+.library-cmd
+{
+    color: #a8ce3b;
+}
 
+.cmd-method  img
+{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -16px
+}
+
+.wider-slideshow
+{
+    margin-left: 30%;
+    width: 40%;
+}
+
+.wider-slideshow-buttons
+{
+    margin-left: calc(30% - 60px);
+    margin-top: -230px;
+}
+
+.wider-slideshow-button-right
+{
+    position: absolute;
+    margin-left: calc(40% + 19px);
+}
+
+.wider-margin-number
+{
+    margin-left: calc(27%);
+    margin-right: 2%;
+}
+
+.onderzoek-titel
+{
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+    color: #432967;
+    margin-bottom: 75px;
+}
 
 
 
